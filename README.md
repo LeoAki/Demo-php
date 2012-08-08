@@ -1,7 +1,7 @@
 Demo-php
 ========
 
-Un pequeño demo de php
+Un pequeño demo de php con mysql-graba datos y exporta a excel-
 
 //TABLA llamada
 
@@ -49,6 +49,3 @@ else
 				arespuesta);
 END IF $$
 DELIMITER ;
-
-
-//

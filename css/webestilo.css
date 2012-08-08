@@ -1,0 +1,191 @@
+/* 
+    Document   : webestilo
+    Created on : 31/07/2012, 07:29:19 PM
+    Author     : leoaki
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body{
+    background-color: rgb(229, 229, 229);
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 14px;
+    margin:0px;
+}
+
+
+fieldset{
+    font-weight: bold;
+    border-radius:7px;
+}
+
+label{
+    font-size: 13px;
+    text-align: left;
+    border-radius:7px;
+}
+legend{
+    font-size: 14px;
+    color: red;
+}
+
+
+#header{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:80px;
+    background-image: url(imagen/corta.png);
+}
+
+
+#main {
+    width: 900px;
+    margin: 5px auto;
+    padding: 0 5px 0 5px;
+    background: #fff;
+    border-radius:7px;
+}
+
+#footer {
+    padding: 1px 5px 1px 5px;
+    background: black;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    color:peru;
+    font-size: 12px;
+    border-radius:7px;
+}
+
+/**Otros estilos*/
+
+#logo{
+    float: left;
+    width:60px;
+    height: 58px;
+    margin: 12px 50px 0 40%;
+    background-image: url(imagen/logo.jpg);
+    text-align:center;
+    }
+
+
+
+
+
+#f1 input{
+width: 25%;
+text-align: center;
+}
+
+
+.marco{
+    margin: 20px 30px 0 48%;
+    overflow:hidden;
+    width:160px;
+    height:30px;
+    float:right;
+}
+
+.encabezado{
+    background-image: url(imagen/logo.jpg);
+    background-repeat: no-repeat;
+    margin:auto;
+    width: 660px;
+    height:250px;
+    text-align:center;
+    border-radius:80px;
+}
+
+#login{
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius:7px;
+    width: 235px;
+}
+
+#login *{
+	font-size: 11px;
+}
+
+#alert {
+    width: 720px;
+    margin: 0 auto;
+    padding: 11px 5px 11px 5px;
+    background: #fff;
+}
+
+#alert p{
+    text-align: justify;
+    color:  #cc0000;
+}
+
+.frmtable{
+    margin: 5px auto 5px auto;
+    width: 95%;
+    font-size: 12px;
+    border-radius:7px;
+}
+
+.frmtable td{
+    color:black;
+    font-style: inherit;
+ }
+.frmtable th{
+
+    color: red;
+    font-size: 12px;
+}
+
+.frmtableoption{
+    margin: 5px auto 5px auto;
+    width: 40%;
+}
+.frmtableoption input{
+
+    width: 25%;
+}
+
+.divajax{
+    margin: 5px auto 5px auto;
+    width: 80%;
+}
+
+.textdivubi{
+    width: 400px;
+}
+
+.buttondivubi{
+    width: 80px;
+}
+
+.selectdivubi{
+    width: 167px;
+}
+
+input:focus{
+    -moz-box-shadow:0 0 8px rgba(255, 105, 105, 0.5);
+    border-color: rgba(255, 105, 105, 0.75);
+}
+
+#titulo{
+    margin: 5px auto 5px auto;
+    font-size: 20px;
+    color:#BE2829;
+    font-family: Arial,Verdana,sans-serif;
+}
+
+#nota{
+    width: 90%;
+    margin: 5px auto;
+}
+
+#linkpop{
+    margin: 11px auto;
+}
+
